@@ -231,6 +231,47 @@ public class HealIndicatorsPlugin extends Plugin
 		return configManager.getConfig(HealIndicatorsConfig.class);
 	}
 
+	static class HealSplatEntry
+	{
+		private int amount;
+		private final int spawnedOnGameCycle;
+		private final int expiresOnGameCycle;
+		private final SplatType type;
+
+		HealSplatEntry(int amount, int spawnedOnGameCycle, int expiresOnGameCycle, SplatType type)
+		{
+			this.amount = amount;
+			this.spawnedOnGameCycle = spawnedOnGameCycle;
+			this.expiresOnGameCycle = expiresOnGameCycle;
+			this.type = type;
+		}
+
+		int getAmount()
+		{
+			return amount;
+		}
+
+		void setAmount(int amount)
+		{
+			this.amount = amount;
+		}
+
+		int getSpawnedOnGameCycle()
+		{
+			return spawnedOnGameCycle;
+		}
+
+		int getExpiresOnGameCycle()
+		{
+			return expiresOnGameCycle;
+		}
+
+		SplatType getType()
+		{
+			return type;
+		}
+	}
+
 	enum SplatType
 	{
 		HEAL,
