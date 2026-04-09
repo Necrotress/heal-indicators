@@ -12,8 +12,8 @@
 
 ## Screenshots
 
-<img src="https://github.com/Necrotress/heal-indicators/blob/master/screenshots/testscreenshot2.png" width="417" height="457" align="center">
-<img src="https://github.com/Necrotress/heal-indicators/blob/master/screenshots/Test%20screen%20shot.png" width="379" height="476" align="center">
+<img src="https://github.com/Necrotress/heal-indicators/blob/master/screenshots/test1.png" width="417" height="457" align="center">
+<img src="https://github.com/Necrotress/heal-indicators/blob/master/screenshots/test2.png" width="379" height="476" align="center">
 
 ## Configuration
 
